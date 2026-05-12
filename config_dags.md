@@ -21,7 +21,7 @@ git add .
 git commit -m "Initial DAGs"
 
 # 添加远程仓库（替换为你的仓库地址）
-git remote add origin https://github.com/your-username/airflow-dags.git
+git remote add origin https://github.com/Phil-liupfei/airflow-dags.git
 git push -u origin main
 ```
 
@@ -31,7 +31,7 @@ git push -u origin main
 
 ```bash
 cat > /home/phil/ldp/terraform/terraform.tfvars << EOF
-dags_git_repo     = "https://github.com/your-username/airflow-dags.git"
+dags_git_repo     = "https://github.com/Phil-liupfei/airflow-dags.git"
 dags_git_branch   = "main"
 dags_git_revision = "HEAD"
 dags_git_subpath  = ""  # 如果 DAGs 在仓库根目录，留空
